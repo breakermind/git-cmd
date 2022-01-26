@@ -1,4 +1,4 @@
-# Github wiersz poleceń (terminal cmd)
+# Jak utworzyć pull request na GitHub
 Praca na zdalnym repozytorium w github.
 
 ## Klucze ssh
