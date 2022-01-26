@@ -86,7 +86,7 @@ git remote add upstream https://github.com/<original-owner-username>/<original-r
 git remote -v
 ```
 
-### Aktualizacja swojego repozytorium ze zdalnym
+### Uaktualnij lokalne repozytorim 
 ```sh
 git fetch upstream/main
 
@@ -95,7 +95,14 @@ git checkout main
 git merge upstream/main
 ```
 
-## Lokalne repozytorium
+### Wyślij zmiany na lokalne repozytorium github
+```sh
+git add .
+git commit -m "Aktualizacja"
+git push
+```
+
+# Cmd git
 ```sh
 # Zmiana gałęzi
 git checkout <branch-name>
@@ -106,14 +113,16 @@ git checkout main
 # Dodaj pliki
 git add .
 git commit -am "Update"
+
+# Lista zmian
+git diff --staged
+git diff --cached
+
+# Wyślij
 git push
 
 # Pobierz
 git pull
-
-# Lista
-git diff --staged
-git diff --cached
 ```
 
 https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github
