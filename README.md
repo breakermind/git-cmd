@@ -75,7 +75,7 @@ git push --set-upstream origin <branch-name>
 ```
 
 ### Wyślij funkcjonalność (gałąź) do  zdalnego repozytorium (Pull Request)
-Teraz można utworzyć Pull Request z własnego konta github dla funkcjonalności w forkniętym repozytorium i wysłać zmiany do właściciela repo w celu akceptacji.
+Teraz można utworzyć Pull Request z własnego konta github dla funkcjonalności w forkniętym repozytorium i wysłać zmiany do zdalnego repozytorium w celu potwierdzenia zmian przez właściciela.
 
 ## Pobieranie zaktualizowanego zdalnego repozytorium
 Zaakceptowanej przez właściciela zdalnego repozytorim zmiany nie ma na naszym forkniętym repo, dlatego trzeba dodać link do zdalnego repozytorium i pobrać z niego aktualne pliki.
