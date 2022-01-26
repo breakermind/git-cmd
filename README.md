@@ -49,8 +49,8 @@ git config --global user.name "Imię Nazwisko lub psełdonim"
 git config --global user.email your-github-username@email.here
 ```
 
-### Pobieranie kopii zdalnego repozytorium do swojego (fork repo)
-Forknij repozytorium do którego chcesz dodać nową funkcjonalność.
+### Pobieranie kopii zdalnego repo na swoje konto github (fork repo)
+Forknij zdalne repozytorium do którego chcesz dodać nową funkcjonalność.
 ```sh
 git clone https://github.com/<username>/<repo-name>.git <dir-name>
 ```
@@ -67,17 +67,18 @@ touch file-1.txt
 git add .
 git commit -am "Fix 1"
 
-# Wyślij do swojego repozytorium
+# Wyślij nową gałąź do swojego repozytorium github
 git push -u origin <branch-name>
 
 # Lub
 git push --set-upstream origin <branch-name>
 ```
 
-### Wyślij funkcjonalność do  zdalnego repozytorium (Pull Request)
+### Wyślij funkcjonalność (gałąź) do  zdalnego repozytorium (Pull Request)
 Teraz można utworzyć Pull Request z własnego konta github dla funkcjonalności w forkniętym repozytorium i wysłać zmiany do właściciela repo w celu akceptacji.
 
 ## Pobieranie zaktualizowanego zdalnego repozytorium
+Zaakceptowanej przez właściciela zdalnego repozytorim zmiany nie ma na naszym forkniętym repo, dlatego trzeba dodać link do zdalnego repozytorium i pobrać z niego aktualne pliki.
 
 ### Dodanie zdalnego repozytorium
 ```sh
@@ -91,10 +92,11 @@ git fetch upstream/main
 git merge upstream/main
 ```
 
-## Inne przykłady
+## Lokalne repozytorium
 ```sh
 # Zmiana gałęzi
 git checkout <branch-name>
+
 # Na główną
 git checkout main
 
