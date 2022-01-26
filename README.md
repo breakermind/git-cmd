@@ -89,6 +89,9 @@ git remote -v
 ### Aktualizacja swojego repozytorium ze zdalnym
 ```sh
 git fetch upstream/main
+
+git checkout main
+
 git merge upstream/main
 ```
 
