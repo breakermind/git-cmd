@@ -82,7 +82,7 @@ Zaakceptowanej przez właściciela zdalnego repozytorim zmiany nie ma na naszym 
 
 ### Dodanie zdalnego repozytorium
 ```sh
-git remote add upstream https://github.com/<username>/<repo-name>.git
+git remote add upstream https://github.com/<original-owner-username>/<original-repo>.git
 git remote -v
 ```
 
@@ -112,3 +112,5 @@ git pull
 git diff --staged
 git diff --cached
 ```
+
+https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github
